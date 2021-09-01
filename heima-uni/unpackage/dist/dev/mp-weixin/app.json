@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/member/member",
+    "pages/news/news",
+    "pages/goods/goods",
+    "pages/contact/contact",
+    "pages/pics/pics",
+    "pages/news-detail/news-detail",
+    "pages/goods-detail/goods-detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "黑马商城",
+    "navigationBarBackgroundColor": "#b50e03",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#B50E03",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home.jpg",
+        "selectedIconPath": "static/icon/home_active.jpg"
+      },
+      {
+        "text": "资讯",
+        "pagePath": "pages/news/news",
+        "iconPath": "static/icon/course.jpg",
+        "selectedIconPath": "static/icon/course_active.jpg"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/icon/classic.jpg",
+        "selectedIconPath": "static/icon/classic_active.jpg"
+      },
+      {
+        "text": "会员",
+        "pagePath": "pages/member/member",
+        "iconPath": "static/icon/mine.jpg",
+        "selectedIconPath": "static/icon/mine_active.jpg"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap4.json"
+}
