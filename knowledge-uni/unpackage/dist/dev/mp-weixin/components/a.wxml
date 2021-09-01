@@ -1,0 +1,1 @@
+<view>这是a组件，<button size="mini" type="primary" data-event-opts="{{[['tap',[['handleAddAge',['$event']]]]]}}" bindtap="__e">点击按钮，修改b组件中age的值</button></view>

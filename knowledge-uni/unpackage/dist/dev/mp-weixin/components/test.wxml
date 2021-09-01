@@ -1,0 +1,1 @@
+<view id="myView"><view>{{'这是test组件 ，子组件的num是：'+num+" ，接收到父组件的msg是:"+msg+''}}</view><button size="mini" data-event-opts="{{[['tap',[['handleSend',['$event']]]]]}}" bindtap="__e">给父组件传值</button></view>

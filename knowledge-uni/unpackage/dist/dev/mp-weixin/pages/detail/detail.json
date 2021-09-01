@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 200,
+  "usingComponents": {
+    "test": "/components/test",
+    "comp-a": "/components/a",
+    "comp-b": "/components/b"
+  }
+}
